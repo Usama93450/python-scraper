@@ -7,8 +7,9 @@ undetected-chromedriver
 openpyxl
 fpdf2
 
-# For YouTube Data API
-google-api-python-client
+
+streamlit
+google-api-python-client==2.116.0
 google-auth
 google-auth-httplib2
 httplib2
