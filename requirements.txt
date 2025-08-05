@@ -1,0 +1,15 @@
+streamlit
+requests
+beautifulsoup4
+selenium
+fake-useragent
+undetected-chromedriver
+openpyxl
+fpdf2
+
+
+streamlit
+google-api-python-client==2.116.0
+google-auth
+google-auth-httplib2
+httplib2
