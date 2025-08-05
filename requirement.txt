@@ -1,0 +1,14 @@
+streamlit
+requests
+beautifulsoup4
+selenium
+fake-useragent
+undetected-chromedriver
+openpyxl
+fpdf2
+
+# For YouTube Data API
+google-api-python-client
+google-auth
+google-auth-httplib2
+httplib2
