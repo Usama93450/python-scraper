@@ -1,15 +1,15 @@
+# Core Streamlit app dependencies
 streamlit
-requests
-beautifulsoup4
-selenium
-fake-useragent
-undetected-chromedriver
-openpyxl
-fpdf2
+pandas
 plotly
-
-streamlit
-google-api-python-client==2.116.0
+matplotlib
+wordcloud
+fpdf
+xlsxwriter
+requests
+google-api-python-client
 google-auth
 google-auth-httplib2
 httplib2
+streamlit-oauth
+pyjwt
