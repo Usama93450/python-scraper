@@ -6,7 +6,7 @@ fake-useragent
 undetected-chromedriver
 openpyxl
 fpdf2
-
+plotly
 
 streamlit
 google-api-python-client==2.116.0
