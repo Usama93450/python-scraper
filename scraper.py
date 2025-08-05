@@ -537,12 +537,6 @@ def generate_pdf_report(channels_data, ranking_data):
 # ✅ Your Original Streamlit Code with Key Rotation Integrated
 st.title("📊 YouTube Channel Analyzer + Competitor + Revenue + Ranking")
 
-with st.sidebar.form("api_key_form"):
-    st.markdown("### 🔑 Enter YouTube Data API v3 Key (Optional):")
-    user_api_key = st.text_input("Your API Key", value=st.session_state.get("api_key", ""), type="password")
-    st.form_submit_button("Save API Key")
-    if user_api_key.strip():
-        st.session_state["api_key"] = user_api_key.strip()
 
 with st.form("channels_form"):
     st.markdown("### 🔗 Enter YouTube Channel URLs (one per line)")
